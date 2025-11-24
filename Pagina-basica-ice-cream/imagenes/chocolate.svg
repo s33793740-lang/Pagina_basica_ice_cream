@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#3b1f1f"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#fff">
+    <text x="50%" y="40%" text-anchor="middle" font-size="56">Chocolate Intenso</text>
+    <text x="50%" y="52%" text-anchor="middle" font-size="28">Chocolate belga, textura profunda</text>
+  </g>
+  <ellipse cx="300" cy="520" rx="150" ry="110" fill="#5b3227" />
+  <path d="M220 480 q80 80 160 0" fill="#4a231b" opacity="0.8"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#fff3d6"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#3b3b3b">
+    <text x="50%" y="40%" text-anchor="middle" font-size="56">Vainilla Clásica</text>
+    <text x="50%" y="52%" text-anchor="middle" font-size="28">Crema suave con vaina natural</text>
+  </g>
+  <circle cx="300" cy="520" r="140" fill="#f7e7c2" stroke="#e6c48d" stroke-width="6" />
+  <path d="M260 460 c40 -80 160 -80 200 0" fill="#f7e7c2" stroke="#e6c48d" stroke-width="6"/>
+</svg>

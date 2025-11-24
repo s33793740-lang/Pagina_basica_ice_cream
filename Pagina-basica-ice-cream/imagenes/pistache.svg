@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#eef7ec"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#2b3b2b">
+    <text x="50%" y="40%" text-anchor="middle" font-size="56">Pistache Deluxe</text>
+    <text x="50%" y="52%" text-anchor="middle" font-size="28">Trozos tostados y aroma natural</text>
+  </g>
+  <ellipse cx="300" cy="520" rx="150" ry="110" fill="#cfe8cf" stroke="#9fbf9a" stroke-width="6" />
+</svg>

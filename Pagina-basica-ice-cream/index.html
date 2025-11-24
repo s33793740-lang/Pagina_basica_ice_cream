@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ice Cream — Helados</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="Página básica de helados: Inicio, Nosotros, Productos y Preguntas frecuentes.">
+        <script>
+            // Pequeño script para alternar el menú en móvil
+            function toggleMenu() {
+                document.documentElement.classList.toggle('menu-open');
+            }
+        </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="logo">Ice Cream</h1>
+            <button class="nav-toggle" aria-label="Abrir menú" onclick="toggleMenu()">☰</button>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#faq">Preguntas frecuentes</a></li>
+                    <li><a href="#sucursales">Sucursales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <h2>Bienvenidos a Ice Cream</h2>
+                <p>Los mejores helados artesanales hechos con ingredientes naturales.</p>
+                <p><a class="btn" href="#productos">Ver productos</a></p>
+            </div>
+        </section>
+
+        <section id="nosotros" class="section">
+            <div class="container">
+                <h3>Nosotros</h3>
+                <div class="about">
+                    <figure>
+                        <img src="imagenes/tienda-no.jpg" alt="Nuestro equipo" class="about-img">
+                    </figure>
+                    <div class="about-text">
+                        <p class="lead">Somos una pequeña heladería familiar con pasión por los sabores artesanales.</p>
+                        <p>Desde 2018 elaboramos helados con ingredientes locales y recetas tradicionales, innovando con sabores de temporada. Nuestra misión es crear momentos dulces y memorables para toda la comunidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="section products">
+            <div class="container">
+                <h3>Productos</h3>
+                <div class="cards">
+                    <article class="card">
+                        <img src="imagenes/vainilla.svg" alt="Vainilla Clásica" class="product-img">
+                        <h4>Vainilla Clásica</h4>
+                        <p>Suave y cremosa, preparada con extracto natural de vainilla.</p>
+                        <p class="price">$2.50</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="imagenes/chocolate.svg" alt="Chocolate Intenso" class="product-img">
+                        <h4>Chocolate Intenso</h4>
+                        <p>Chocolate belga para los amantes del sabor intenso.</p>
+                        <p class="price">$2.80</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="imagenes/fresa.svg" alt="Fresa Natural" class="product-img">
+                        <h4>Fresa Natural</h4>
+                        <p>Hecho con fresas frescas de temporada, ligero y afrutado.</p>
+                        <p class="price">$2.70</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="imagenes/mango.svg" alt="Mango Tropical" class="product-img">
+                        <h4>Mango Tropical</h4>
+                        <p>Fresco y afrutado, hecho con mangos de temporada.</p>
+                        <p class="price">$2.90</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="imagenes/pistache.svg" alt="Pistacho Gourmet" class="product-img">
+                        <h4>Pistacho Gourmet</h4>
+                        <p>Con trozos de pistacho y un toque salado que realza el sabor.</p>
+                        <p class="price">$3.20</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="imagenes/pistache.svg" alt="Dulce de Leche" class="product-img">
+                        <h4>Dulce de Leche</h4>
+                        <p>Clásico y cremoso, con dulce de leche artesanal.</p>
+                        <p class="price">$2.95</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <div class="container">
+                <h3>Preguntas frecuentes</h3>
+                <div class="faq">
+                    <details>
+                        <summary>¿Hacen helados sin lactosa?</summary>
+                        <p>Sí, ofrecemos opciones sin lactosa y veganas. Pregunta por las opciones del día.</p>
+                    </details>
+
+                    <details>
+                        <summary>¿Hacen pedidos para eventos?</summary>
+                        <p>Sí, hacemos pedidos para fiestas y eventos con al menos 72 horas de anticipación.</p>
+                    </details>
+
+                    <details>
+                        <summary>¿Aceptan tarjetas?</summary>
+                        <p>Aceptamos tarjetas y efectivo.</p>
+                    </details>
+
+                    <details>
+                        <summary>¿Tienen opciones sin azúcar?</summary>
+                        <p>Disponemos de algunas opciones reducidas en azúcar, consulta disponibilidad.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="sucursales" class="section branches">
+            <div class="container">
+                <h3>Sucursales</h3>
+                <p class="lead">Contamos con 3 sucursales para atenderte cerca de ti.</p>
+                <div class="branch-list">
+                    <article class="branch">
+                        <img src="imagenes/sucursal1.jpg" alt="Sucursal Centro" class="branch-img">
+                        <h4>Sucursal Centro</h4>
+                        <p>Av. Principal 123 — Horario: 9:00 - 21:00</p>
+                    </article>
+
+                    <article class="branch">
+                        <img src="imagenes/sucursal2.jpg" alt="Sucursal Norte" class="branch-img">
+                        <h4>Sucursal Norte</h4>
+                        <p>Calle Norte 45 — Horario: 10:00 - 20:00</p>
+                    </article>
+
+                    <article class="branch">
+                        <img src="imagenes/sucursal3.jpg" alt="Sucursal Playa" class="branch-img">
+                        <h4>Sucursal Playa</h4>
+                        <p>Paseo Marítimo 7 — Horario: 11:00 - 22:00</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Ice Cream — Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Coloca el año actual en el pie
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
